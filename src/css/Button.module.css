@@ -1,4 +1,4 @@
-/* button */
+* button */
 .button {
 	height: 2rem;
 	padding: 0 0.6rem;
@@ -8,7 +8,7 @@
 	align-items: center;
 	gap: 0.4rem;
 
-	background-color: dodgerblue;
+	background-color: rgb(18, 121, 223);
 	border-radius: var(--border-radius-secondary);
 	font-weight: bold;
 }
@@ -21,10 +21,10 @@
 
 /* disabled */
 .button:disabled {
-	background-color: gray;
+	background-color: rgb(160, 49, 49);
 }
 
 .arrow {
 	color: gray;
 	margin-left: auto;
-}
+} 
